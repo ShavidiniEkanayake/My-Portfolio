@@ -91,3 +91,40 @@ nav ul{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
 }
+
+main {
+    margin-top: 100px;
+}
+
+.wrapper {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 8%;
+}
+
+.container-img-profile {
+    /* width: 33%; */
+    max-width: 400px;
+    margin-right: 20px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+}
+
+.container-content {
+    display: flex;
+    align-items: center;
+}
+
+.line-after {
+    content: "";
+    display: block;
+    width: 30px; 
+    height: 2px;
+    background-color: #111; 
+    margin-top: 10px;
+}
