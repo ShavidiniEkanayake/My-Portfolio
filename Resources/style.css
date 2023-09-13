@@ -1,5 +1,5 @@
 html {
-    overflow: hidden;
+    
 }
 
 * {
@@ -16,7 +16,7 @@ body {
     font-size: 16px;
     color: #252525;
     font-family: Helvetica;
-    overflow: hidden;
+   
 }
 
 header {
@@ -104,9 +104,9 @@ main {
 }
 
 .container-img-profile {
-    /* width: 33%; */
+    position: relative;
     max-width: 400px;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 img {
@@ -123,8 +123,38 @@ img {
 .line-after {
     content: "";
     display: block;
-    width: 30px; 
-    height: 2px;
+    width: 300px; 
+    height: 3px;
     background-color: #111; 
     margin-top: 10px;
+    margin-bottom: 20px;
 }
+
+.container-content h1:first-child {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; 
+    font-size: 48px; 
+}
+
+.container-content h1:nth-child(2), .container-content h1:nth-child(3) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; 
+    font-size: 58px;
+}
+
+.profile-box {
+    position: absolute;
+    top: 500px;
+    left: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.more-about {
+    text-align: center;
+  }
+  
