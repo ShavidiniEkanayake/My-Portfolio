@@ -154,6 +154,7 @@ img {
 }
 
 .more-about {
+    position: none;
     text-align: center;
 }
 
@@ -165,10 +166,12 @@ img {
 }
 
 .skills-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    text-align: center; 
+}
+
+.skill-item {
+    margin: 10px 0; 
+    display: inline-block;
 }
 
 .skill-header {
@@ -180,25 +183,18 @@ img {
 }
 
 .icon {
-    width: 11.875rem;
-    height: 11.25rem;
+    width: 5.875rem;
+    height: 5.25rem;
     margin: 10px;
 }
-
+/* 
 .icon-card {
     background-color: #fff;
     border-radius: 11px;
-    box-shadow: 0 3px 10px var(--secondary-shadow);
+    box-shadow: 0 3px 10px ;
     padding: 20px;
     margin: 10px;
-}
-
-.first-set,
-.second-set {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+} */
 
 .contact {
     margin-top: 2rem;
