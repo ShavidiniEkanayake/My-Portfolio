@@ -314,14 +314,58 @@ footer p {
     font-size: 14px;
 }
 
-@media (max-width: 440px) {
+.projects {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+
+  .project-header {
+    margin-bottom: 30px;
+  }
+
+  .project-title {
+    margin-bottom: 20px;
+  }
+  
+  .project-details {
+    margin-top: 10px;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .project-item{
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    max-width:250px; 
+  }
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+@media (max-width: 420px) {
     main {
         margin-top: 40px;
     }
 
     .container-content {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
         text-align: center;
     }
@@ -367,6 +411,16 @@ footer p {
     .container-content h1:nth-child(3) {
         font-size: 40px;
     }
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        max-width:350px; 
+      }
+    
 
     /* Nav */
     .main-nav {
@@ -538,8 +592,8 @@ footer p {
         position: unset;
     }
 }
-
-@media (min-width: 440px) and (max-width: 768px) {
+/* (min-width: 440px) and */
+@media  (max-width: 768px) {
 
     main {
         margin-top: 40px;
@@ -581,6 +635,12 @@ footer p {
         justify-content: space-around;
     }
 
+    .project-item{
+        display: flex;
+        flex-wrap: wrap;
+        display: inline-block;
+      }
+
     .more-about {
         padding-top: 30px;
     }
@@ -593,6 +653,11 @@ footer p {
     .container-content h1:nth-child(2),
     .container-content h1:nth-child(3) {
         font-size: 48px;
+    }
+
+    .project-container {
+        max-width:350px; 
+        height: 100%; 
     }
 
     /* Nav */
