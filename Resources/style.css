@@ -161,7 +161,8 @@ img {
     justify-content: center;
     width: 50%;
     margin: 0 auto;
-    transform: translateY(-50%);
+    margin-top: -30px;
+    /* transform: translateY(-50%); */
     justify-content: space-around;
 }
 
@@ -207,15 +208,6 @@ img {
     height: 5.25rem;
     margin: 10px;
 }
-
-/* 
-.icon-card {
-    background-color: #fff;
-    border-radius: 11px;
-    box-shadow: 0 3px 10px ;
-    padding: 20px;
-    margin: 10px;
-} */
 
 .contact {
     margin-top: 2rem;
@@ -358,7 +350,7 @@ footer p {
     margin-bottom: 50px;
   }
 
-@media (max-width: 420px) {
+@media (max-width: 440px) {
     main {
         margin-top: 40px;
     }
@@ -390,11 +382,9 @@ footer p {
 
     .profile-box {
         position: absolute;
-        top: auto;
-        bottom: 0;
         flex-wrap: wrap;
         margin: 0 auto;
-        transform: translateY(-80%);
+        margin-top: -470px;
         justify-content: space-around;
     }
 
@@ -593,7 +583,7 @@ footer p {
     }
 }
 /* (min-width: 440px) and */
-@media  (max-width: 768px) {
+@media  (min-width: 440px) and (max-width: 768px) {
 
     main {
         margin-top: 40px;
@@ -628,10 +618,8 @@ footer p {
     .profile-box {
         position: absolute;
         top: auto;
-        bottom: 0;
         flex-wrap: wrap;
-        margin: 0 auto;
-        transform: translateY(-100%);
+        margin-top: -360px;
         justify-content: space-around;
     }
 
@@ -647,7 +635,7 @@ footer p {
 
     .container-content h1:first-child {
         font-size: 36px;
-        margin-top: 70px;
+        margin-top: 50px;
     }
 
     .container-content h1:nth-child(2),
