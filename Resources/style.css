@@ -101,13 +101,7 @@ main {
     padding: 0 8%;
 }
 
-/* .wrapperdetails {
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-    padding-left: 0 8%;
-} */
-
+/* Profile Pic */
 .container-img-profile {
     position: relative;
     min-width: 300px;
@@ -122,6 +116,7 @@ img {
     border-radius: 3%;
 }
 
+/* Details part */
 .container-content {
     display: flex;
     align-items: center;
@@ -150,6 +145,7 @@ img {
     font-size: 58px;
 }
 
+/* Profile box */
 .profile-box {
     display: flex;
     position: absolute;
@@ -162,7 +158,6 @@ img {
     width: 50%;
     margin: 0 auto;
     margin-top: -30px;
-    /* transform: translateY(-50%); */
     justify-content: space-around;
 }
 
@@ -174,11 +169,13 @@ img {
     display: inline-block;
 }
 
+/* About me */
 .more-about {
     padding-top: 60px;
     text-align: center;
 }
 
+/* Skills */
 .skills {
     max-width: 68.75rem;
     margin: auto;
@@ -209,6 +206,52 @@ img {
     margin: 10px;
 }
 
+/* Projects */
+.projects {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.project-header {
+    margin-bottom: 30px;
+}
+
+.project-title {
+    margin-bottom: 20px;
+}
+
+.project-details {
+    margin-top: 10px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.project-item {
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    max-width: 250px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+/* Contact */
 .contact {
     margin-top: 2rem;
 }
@@ -291,6 +334,7 @@ img {
     height: 100%;
 }
 
+/* Footer */
 footer {
     display: flex;
     justify-content: center;
@@ -306,50 +350,7 @@ footer p {
     font-size: 14px;
 }
 
-.projects {
-    max-width: 68.75rem;
-    margin: auto;
-    text-align: center;
-    margin-top: 2.5rem;
-  }
-
-  .project-header {
-    margin-bottom: 30px;
-  }
-
-  .project-title {
-    margin-bottom: 20px;
-  }
-  
-  .project-details {
-    margin-top: 10px;
-    padding: 0;
-    margin-bottom: 10px;
-  }
-
-  .project-item{
-    display: flex;
-    flex-wrap: wrap;
-    display: inline-block;
-  }
-  
-  .project-card {
-    background-color: #fff;
-    border-radius: 11px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    margin: 10px;
-    max-width:250px; 
-  }
-
-  .projects-container {
-    display: flex;
-    flex-wrap: wrap; 
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
-  }
-
+/* Screen Size 0-440 */
 @media (max-width: 440px) {
     main {
         margin-top: 40px;
@@ -408,9 +409,9 @@ footer p {
         align-items: center;
         justify-content: center;
         margin-bottom: 50px;
-        max-width:350px; 
-      }
-    
+        max-width: 350px;
+    }
+
 
     /* Nav */
     .main-nav {
@@ -582,8 +583,9 @@ footer p {
         position: unset;
     }
 }
-/* (min-width: 440px) and */
-@media  (min-width: 440px) and (max-width: 768px) {
+
+/* Screen Size 440-768 */
+@media (min-width: 440px) and (max-width: 768px) {
 
     main {
         margin-top: 40px;
@@ -623,11 +625,11 @@ footer p {
         justify-content: space-around;
     }
 
-    .project-item{
+    .project-item {
         display: flex;
         flex-wrap: wrap;
         display: inline-block;
-      }
+    }
 
     .more-about {
         padding-top: 30px;
@@ -644,8 +646,8 @@ footer p {
     }
 
     .project-container {
-        max-width:350px; 
-        height: 100%; 
+        max-width: 350px;
+        height: 100%;
     }
 
     /* Nav */
@@ -819,6 +821,7 @@ footer p {
     }
 }
 
+/* Screen Size 768-1180 */
 @media (min-width: 768px) and (max-width: 1180px) {
     .container-content h1:first-child {
         font-size: 32px;
