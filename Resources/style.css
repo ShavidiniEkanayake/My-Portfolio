@@ -695,7 +695,7 @@ footer p {
         height: 93%;
         align-items: flex-end;
         justify-content: center;
-        transform: translateX(-18%) skew(-16deg)
+        transform: translateX(-18%) skew(-16deg);
     }
 
     .main-nav li {
