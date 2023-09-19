@@ -169,6 +169,11 @@ img {
     display: inline-block;
 }
 
+.name-container{
+    position: relative;
+    margin-top: 30px;
+}
+
 /* About me */
 .more-about {
     padding-top: 60px;
@@ -584,8 +589,8 @@ footer p {
     }
 }
 
-/* Screen Size 440-768 */
-@media (min-width: 440px) and (max-width: 768px) {
+/* Screen Size 440-826 */
+@media (min-width: 440px) and (max-width: 826px) {
 
     main {
         margin-top: 40px;
@@ -613,16 +618,23 @@ footer p {
     }
 
     .line-after {
-
         margin: 20px auto;
     }
 
     .profile-box {
-        position: absolute;
+       
+        top: 100%;
         top: auto;
         flex-wrap: wrap;
-        margin-top: -360px;
+        margin-top: -400px;
         justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .name-container{
+        position: relative;
+        margin-top: 10px;
     }
 
     .project-item {
@@ -637,7 +649,7 @@ footer p {
 
     .container-content h1:first-child {
         font-size: 36px;
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
     .container-content h1:nth-child(2),
@@ -822,7 +834,7 @@ footer p {
 }
 
 /* Screen Size 768-1180 */
-@media (min-width: 768px) and (max-width: 1180px) {
+@media (min-width: 826px) and (max-width: 1180px) {
     .container-content h1:first-child {
         font-size: 32px;
     }
